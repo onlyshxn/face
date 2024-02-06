@@ -4,7 +4,7 @@ import cv2
 st.title("Face Detector")
 st.header("Upload image and detect face from it")
 #Loading model
-model = cv2.CascadeClassifier("C:/Users/Shahnawaz/Desktop/shanawaaz/haarcascade_frontalface_default.xml")
+model = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 #Taking user image
 user_img = st.file_uploader("Choose an image", type=["jpg", "png", "jpeg"])
 
